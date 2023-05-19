@@ -4,6 +4,26 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/purple_500"
     tools:context=".splash">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5"
+        android:text="TO DO APP"
+        android:drawableRight="@drawable/baseline_done_all_24"
+        android:drawablePadding="15dp"
+
+        android:textColor="#ffffff"
+        android:textSize="40sp"
+        android:textStyle="bold"/>
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
